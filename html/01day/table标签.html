@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>table标签</title>
+  </head>
+  <body>
+    <table border="1" cellspacing="0" width="500" height="200" align="left" cellpadding="4">
+      <caption><strong>学生入学信息</strong></caption>
+      <tbody><tr align="center">
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>性别</th>
+        <th>班级</th>
+      </tr>
+      <tr align="center">
+        <td>第2行第1列</td>
+        <td>第2行第2列</td>
+        <td>第2行第3列</td>
+        <td>第2行第4列</td>
+      </tr>
+      <tr align="center">
+        <td>第2行第1列</td>
+        <td>第2行第2列</td>
+
+        <!-- colspan 用于跨列  -->
+        <td colspan="2">
+          独占2列
+        </td>
+      </tr>
+
+      <tr align="center">
+        <td>第2行第1列</td>
+        <td>第2行第2列</td>
+        <td>第2行第3列</td>
+        <!-- rowspan 用于跨行  -->
+        <td rowspan="2">
+          第2行第4列
+        </td>
+      </tr>
+
+      <tr align="center">
+        <td>第2行第1列</td>
+        <td>第2行第2列</td>
+        <td>第2行第3列</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
